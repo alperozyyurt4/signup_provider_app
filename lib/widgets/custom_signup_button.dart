@@ -2,7 +2,6 @@ part of '../view/signup_view.dart';
 
 class _CustomSignUpButton extends StatelessWidget {
   const _CustomSignUpButton({
-    super.key,
     required this.provider,
   });
   final SignUpProvider provider;

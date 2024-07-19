@@ -2,7 +2,6 @@ part of '../view/signup_view.dart';
 
 class _CustomTextField extends StatelessWidget {
   const _CustomTextField({
-    super.key,
     this.errorText,
     this.obsocureText = false,
     this.keyboardType = TextInputType.text,
