@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kartal/kartal.dart';
 import 'package:provider/provider.dart';
-import 'package:signup_provider/core/app_keys.dart';
-import 'package:signup_provider/core/icons.dart';
-import 'package:signup_provider/provider/signup_provider.dart';
+import 'package:signup_provider_app/core/app_keys.dart';
+import 'package:signup_provider_app/core/icons.dart';
+
+import '../provider/signup_provider.dart';
 
 part '../widgets/custom_signup_button.dart';
 part '../widgets/custom_text_field.dart';
